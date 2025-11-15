@@ -71,4 +71,3 @@ runs:
   entrypoint: ''
   args:
     - SyncToIspw
-
