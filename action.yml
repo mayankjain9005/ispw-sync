@@ -68,6 +68,7 @@ outputs:
 runs:
   using: 'docker'
   image: 'docker://172.20.16.1:5000/bmc-codepipeline:latest'
+ entrypoint: ''
   args:
     - SyncToIspw
 
