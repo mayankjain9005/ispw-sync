@@ -67,7 +67,7 @@ outputs:
     description: 'The changed programs JSON'
 runs:
   using: 'docker'
-  image: 'docker://172.20.16.1:5000/bmc-codepipeline:latest SyncToIspw'
+  image: 'docker://172.20.16.1:5000/bmc-codepipeline:latest'
   args:
     - SyncToIspw
 
