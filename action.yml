@@ -68,4 +68,3 @@ outputs:
 runs:
   using: 'docker'
   image: 'docker://pun-harborpd-01.bmc.com/code-pipeline/REPOSITORY:latest'
- '
