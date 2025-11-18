@@ -67,4 +67,4 @@ outputs:
     description: 'The changed programs JSON'
 runs:
   using: 'docker'
-  image: 'docker pull pun-harborpd-01.bmc.com/code-pipeline/bmc-codepipeline@sha256:c2751f156f9a37b71cc328db170130f43d42b61fb5bfecf884032c2c0c4104a9'
+  image: 'docker://pun-harborpd-01.bmc.com/code-pipeline/bmc-codepipeline@sha256:c2751f156f9a37b71cc328db170130f43d42b61fb5bfecf884032c2c0c4104a9'
