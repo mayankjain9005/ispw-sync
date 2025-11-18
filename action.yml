@@ -67,4 +67,4 @@ outputs:
     description: 'The changed programs JSON'
 runs:
   using: 'docker'
-  image: 'docker://172.19.173.66:5000/ispwcli:latest'
+  image: 'docker://ispwcli:latest'
